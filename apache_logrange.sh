@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # ************************ #
-Extract Apache log rows
-for last 24 hours
+# Extract Apache log rows
+# for last 24 hours
 # ************************ #
 
 if [[ $EUID -ne 0 ]]; then
